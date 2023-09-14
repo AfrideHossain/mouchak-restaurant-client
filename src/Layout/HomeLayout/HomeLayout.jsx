@@ -1,8 +1,9 @@
 import { Outlet } from "react-router-dom";
+import Navbar from "../../Shared/Navbar/Navbar";
 const HomeLayout = () => {
   return (
     <>
-      <h1>Hey I am from HomeLayout. Whassup?</h1>
+      <Navbar />
       <Outlet />
     </>
   );
