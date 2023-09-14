@@ -18,7 +18,26 @@ import image4 from "../../../assets/images/banner/youtube-banner-8077450_1280.jp
 const Banner = () => {
   return (
     <>
-      <Swiper>
+      <Swiper
+        centeredSlides={true}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={false}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay, Pagination, Navigation]}
+        grabCursor={true}
+        style={{
+          "--swiper-pagination-color": "#fc1216",
+          "--swiper-pagination-bullet-inactive-color": "#fff",
+          "--swiper-pagination-bullet-inactive-opacity": "1",
+          "--swiper-pagination-bullet-size": "12px",
+          "--swiper-pagination-bullet-horizontal-gap": "6px",
+        }}
+      >
         <SwiperSlide className="swiper-slide">
           <div className="banner-img-cover">
             <img src={image1} alt="Banner image 1" />

@@ -8,13 +8,13 @@ const Navbar = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/">Our menu</NavLink>
+        <NavLink to="/menus">Our menu</NavLink>
       </li>
       <li>
-        <NavLink to="/">About us</NavLink>
+        <NavLink to="/about">About us</NavLink>
       </li>
       <li>
-        <NavLink to="/">Contact us</NavLink>
+        <NavLink to="/contact">Contact us</NavLink>
       </li>
     </>
   );
@@ -22,8 +22,11 @@ const Navbar = () => {
     //   Desktop view
     <>
       <div className="navbar">
+        <div>
+          <h1 className="text-white text-3xl font-bold">Mouchak</h1>
+          <h3 className="text-white text-2xl font-semibold">Restaurant</h3>
+        </div>
         <ul className="navList">{navLinks}</ul>
-        <div>User</div>
       </div>
     </>
   );
