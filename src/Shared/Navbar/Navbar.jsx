@@ -21,12 +21,17 @@ const Navbar = () => {
   return (
     //   Desktop view
     <>
-      <div className="navbar">
-        <div>
-          <h1 className="text-white text-3xl font-bold">Mouchak</h1>
-          <h3 className="text-white text-2xl font-semibold">Restaurant</h3>
+      <div className="navbar bg-neutral justify-between items-center px-6 sticky top-0 z-10 shadow-md">
+        <div className="site-name">
+          <h1 className="text-4xl font-extrabold tracking-wider text-white uppercase">
+            Mouchak
+          </h1>
+          <h3 className="text-white text-2xl font-semibold tracking-widest uppercase">
+            Restaurant
+          </h3>
         </div>
         <ul className="navList">{navLinks}</ul>
+        {/* <button className="btn btn-primary">Login</button> */}
       </div>
     </>
   );

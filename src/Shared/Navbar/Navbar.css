@@ -1,14 +1,27 @@
-.navbar {
-  width: 100%;
-  background: rgba(0, 0, 0, 0.4);
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap");
+
+/* .navbar { */
+  /* max-width: 100%; */
+  /* background: rgba(0, 0, 0, 0.4); */
   /* background-color: #000; */
-  @apply h-20 flex justify-between items-center px-6 fixed top-0 z-10 shadow-md;
-}
+  /* @apply h-28 flex justify-between items-center px-6 fixed top-0 z-10 shadow-md; */
+/* } */
 .navbar ul {
   @apply flex items-center gap-4 text-white;
 }
 .navbar li {
   @apply font-semibold text-lg;
+}
+.site-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Cinzel", serif;
+  color: #ff2f2f;
+}
+.site-name h1,
+.site-name h3 {
+  color: rgb(255, 47, 47);
 }
 .active {
   @apply border-b-2 border-red-500;
