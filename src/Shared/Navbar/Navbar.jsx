@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     //   Desktop view
     <>
-      <div className="navbar bg-neutral justify-between items-center px-6 sticky top-0 z-10 shadow-md">
+      <div className="navbar bg-neutral-focus justify-between items-center px-6 sticky top-0 z-10 shadow-md">
         <div className="site-name">
           <h1 className="text-4xl font-extrabold tracking-wider text-white uppercase">
             Mouchak
