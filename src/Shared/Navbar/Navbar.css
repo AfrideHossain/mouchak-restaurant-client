@@ -1,14 +1,14 @@
 /* .navbar { */
-  /* max-width: 100%; */
-  /* background: rgba(0, 0, 0, 0.4); */
-  /* background-color: #000; */
-  /* @apply h-28 flex justify-between items-center px-6 fixed top-0 z-10 shadow-md; */
+/* max-width: 100%; */
+/* background: rgba(0, 0, 0, 0.4); */
+/* background-color: #000; */
+/* @apply h-28 flex justify-between items-center px-6 fixed top-0 z-10 shadow-md; */
 /* } */
 .navbar ul {
   @apply flex items-center gap-4 text-white;
 }
 .navbar li {
-  @apply font-semibold text-lg;
+  @apply text-lg font-normal;
 }
 .site-name {
   display: flex;
