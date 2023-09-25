@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import { BsFacebook, BsInstagram, BsYoutube } from "react-icons/bs";
 
 const Navbar = () => {
   const navLinks = (
@@ -21,11 +22,23 @@ const Navbar = () => {
   return (
     //   Desktop view
     <>
-      <div className="navbar bg-neutral-focus justify-between items-center px-6 sticky top-0 z-10 shadow-md">
+      <div className="navbar justify-between items-center sticky top-0 z-10 shadow-md">
         <ul className="navList">{navLinks}</ul>
         <ul>
           <li>
-            <a href="facebook">fb</a>
+            <a href="https://facebook.com">
+              <BsFacebook size="24px" />
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com">
+              <BsInstagram size="24px" />
+            </a>
+          </li>
+          <li>
+            <a href="https://youtube.com">
+              <BsYoutube size="24px" />
+            </a>
           </li>
         </ul>
       </div>

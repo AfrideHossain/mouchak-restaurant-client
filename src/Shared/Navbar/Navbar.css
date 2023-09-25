@@ -5,7 +5,7 @@
 /* @apply h-28 flex justify-between items-center px-6 fixed top-0 z-10 shadow-md; */
 /* } */
 .navbar ul {
-  @apply flex items-center gap-4 text-white;
+  @apply flex items-center gap-10 text-white;
 }
 .navbar li {
   @apply text-lg font-normal;

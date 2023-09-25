@@ -2,10 +2,10 @@ import "./TopBanner.css";
 const TopBanner = () => {
   return (
     <>
-      <div className="bg-neutral-focus h-80 flex items-center justify-center">
-        <div className="w-full flex justify-around items-center">
+      <div className="h-80 flex items-center justify-center">
+        <div className="w-full flex justify-between items-center">
           <div className="border-2 border-red-500 px-6 py-3">
-            <p className="text-white text-xl">Call - +880 1700000000</p>
+            <p className="text-white text-xl">Call - 880 1700000000</p>
           </div>
           <div className="flex flex-col items-center site-logo">
             <h1 className="text-3xl font-extrabold tracking-wider text-primary uppercase">

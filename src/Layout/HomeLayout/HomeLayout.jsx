@@ -4,8 +4,16 @@ import TopBanner from "../../Shared/TopBanner/TopBanner";
 const HomeLayout = () => {
   return (
     <>
-      <TopBanner />
-      <Navbar />
+      <div className="bg-neutral-focus">
+        <div className="max-w-7xl mx-auto px-10 ">
+          <TopBanner />
+        </div>
+        <div className="border-y border-gray-600">
+          <div className="max-w-7xl mx-auto px-10">
+            <Navbar />
+          </div>
+        </div>
+      </div>
       <Outlet />
     </>
   );
