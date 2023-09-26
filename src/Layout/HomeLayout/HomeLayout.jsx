@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../../Shared/Navbar/Navbar";
 import TopBanner from "../../Shared/TopBanner/TopBanner";
+import Footer from "../../Shared/Footer/Footer";
 const HomeLayout = () => {
   return (
     <>
@@ -14,7 +15,17 @@ const HomeLayout = () => {
           </div>
         </div>
       </div>
+
+      {/* Outlet */}
       <Outlet />
+
+      <div className="bg-neutral-focus">
+        <div className="border-y border-gray-600">
+          <div className="max-w-7xl mx-auto px-10">
+            <Footer />
+          </div>
+        </div>
+      </div>
     </>
   );
 };
