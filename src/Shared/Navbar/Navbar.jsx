@@ -22,9 +22,9 @@ const Navbar = () => {
   return (
     //   Desktop view
     <>
-      <div className="navbar justify-between items-center sticky top-0 z-10 shadow-md">
+      <div className="navbar flex-col md:flex-row gap-4 justify-between items-center sticky top-0 z-10 shadow-md">
         <ul className="navList">{navLinks}</ul>
-        <ul>
+        <ul className="navSocial">
           <li>
             <a href="https://facebook.com">
               <BsFacebook size="24px" />

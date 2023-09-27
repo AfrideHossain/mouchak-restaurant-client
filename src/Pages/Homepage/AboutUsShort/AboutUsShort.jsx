@@ -4,13 +4,13 @@ import { CiViewList } from "react-icons/ci";
 const AboutUsShort = () => {
   return (
     <>
-      <div className="py-10">
+      <div className="py-10 max-w-full">
         {/* Location, opening hours and reservation mail address */}
-        <div className="grid grid-cols-3 w-full ">
+        <div className="grid md:grid-cols-3 gap-6 w-full">
           {/* Location */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 w-full">
             <div className="rounded-full bg-neutral p-4 w-fit">
-              <HiOutlineLocationMarker className="w-8 h-8 text-white z-10" />
+              <HiOutlineLocationMarker className="md:w-8 w-6 md:h-8 h-6 text-white" />
             </div>
             <div>
               <h1 className="text-xl font-medium">Our Location</h1>
@@ -20,9 +20,9 @@ const AboutUsShort = () => {
             </div>
           </div>
           {/* Open at */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 w-full">
             <div className="rounded-full bg-neutral p-4 w-fit">
-              <HiOutlineClock className="w-8 h-8 text-white z-10" />
+              <HiOutlineClock className="md:w-8 w-6 md:h-8 h-6 text-white" />
             </div>
             <div>
               <h1 className="text-xl font-medium">Open Hours</h1>
@@ -30,9 +30,9 @@ const AboutUsShort = () => {
             </div>
           </div>
           {/* Reservation */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 w-full">
             <div className="rounded-full bg-neutral p-4 w-fit">
-              <CiViewList className="w-8 h-8 text-white z-10" />
+              <CiViewList className="md:w-8 w-6 md:h-8 h-6 text-white" />
             </div>
             <div>
               <h1 className="text-xl font-medium">Reservation</h1>
@@ -41,12 +41,12 @@ const AboutUsShort = () => {
           </div>
         </div>
         {/* Our story */}
-        <div className="mt-10 flex items-center gap-5 h-auto">
+        {/* <div className="mt-10 flex flex-col md:flex-row items-center gap-5 md:h-auto w-full">
           <img
             src="https://images.pexels.com/photos/418806/pexels-photo-418806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            className="max-w-xl border-r-2 border-red-200 pe-5"
+            className="md:max-w-xl w-full md:border-r-2 border-red-200 md:pe-5"
           />
-          <div className="min-h-full">
+          <div className="md:min-h-full w-full">
             <h1 className="text-2xl font-semibold">Our Story</h1>
             <p className="py-5 text-neutral text-base">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -62,10 +62,10 @@ const AboutUsShort = () => {
               delectus accusantium mollitia deserunt impedit quis odit, est
               earum exercitationem esse dicta voluptatum in! Illo, corrupti.
             </p>
-            {/* Owner */}
             <p className="uppercase font-medium text-neutral">Tanvir Anjum</p>
           </div>
-        </div>
+        </div> */}
+        {/* Owner */}
       </div>
     </>
   );
