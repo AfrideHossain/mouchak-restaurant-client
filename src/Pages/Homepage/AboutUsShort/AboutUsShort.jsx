@@ -47,8 +47,8 @@ const AboutUsShort = () => {
             className="md:max-w-xl w-full md:border-r-2 border-red-200 md:pe-5"
           />
           <div className="md:min-h-full w-full">
-            <h1 className="text-2xl font-semibold">Our Story</h1>
-            <p className="py-5 text-neutral text-base">
+            <h1 className="text-2xl font-semibold">From Our Owner</h1>
+            <p className="pb-5 pt-2 text-neutral text-base">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Consequuntur optio temporibus nostrum omnis. Iure corrupti velit
               nisi ipsum doloremque tempore tenetur quo dignissimos numquam

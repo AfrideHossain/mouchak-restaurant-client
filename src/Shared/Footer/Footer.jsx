@@ -42,7 +42,14 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <SectionTitle title={"Contact us"} size={"base"} />
+      {/* Address and timing section */}
+      <div className="w-full text-white grid md:grid-cols-3">
+        <div>
+          <SectionTitle title={"Contact"} size={"sm"} />
+        </div>
+        <div>Hello2</div>
+        <div>Hello3</div>
+      </div>
     </>
   );
 };
