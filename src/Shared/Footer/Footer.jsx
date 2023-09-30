@@ -43,12 +43,51 @@ const Footer = () => {
         </div>
       </div>
       {/* Address and timing section */}
-      <div className="w-full text-white grid md:grid-cols-3">
-        <div>
+      <div className="w-full text-white grid md:grid-cols-3 gap-5 pb-8">
+        <div className="flex flex-col items-start">
           <SectionTitle title={"Contact"} size={"sm"} />
+          <div className="mt-5 space-y-3">
+            {/* road address */}
+            <p>Roof top, Anup Dutta New Market, Pangsha, Rajbari</p>
+            <p>
+              <span className="text-red-500">Call </span>- +880 1700000000
+            </p>
+            <p className="text-red-500">asafridehossain171@gmail.com</p>
+          </div>
         </div>
-        <div>Hello2</div>
-        <div>Hello3</div>
+        {/* Feedback section */}
+        <div className="flex flex-col items-start md:items-center md:px-5">
+          <p className="text-center">
+            Give a feedback and help us to improve our services
+          </p>
+          <div className="w-full flex justify-between items-center mt-5">
+            <input
+              className="input rounded-none bg-transparent flex-grow border-gray-500"
+              type="text"
+              name="feedback"
+              id="feedback"
+            />
+            <button className="btn rounded-none normal-case px-6 text-base leading-none">
+              Feedback
+            </button>
+          </div>
+        </div>
+        {/* Timing section */}
+        <div className="flex flex-col items-start md:items-end md:ps-5">
+          <SectionTitle title={"Working Time"} size={"sm"} />
+          <div className="mt-5 text-left md:text-right space-y-3">
+            {/* road address */}
+            <p>
+              <span className="text-red-500">Mon - Fri</span>: 10:00am - 10:00pm
+            </p>
+            <p>
+              <span className="text-red-500">Sat</span>: 10:00am - 10:00pm
+            </p>
+            <p>
+              <span className="text-red-500">Sun</span>: 10:00am - 10:00pm
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );

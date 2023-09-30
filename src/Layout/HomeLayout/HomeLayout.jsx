@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "../../Shared/Navbar/Navbar";
 import TopBanner from "../../Shared/TopBanner/TopBanner";
 import Footer from "../../Shared/Footer/Footer";
+import CopyrightAndCredit from "../../Shared/CopyrightAndCredit/CopyrightAndCredit";
 const HomeLayout = () => {
   return (
     <>
@@ -24,6 +25,10 @@ const HomeLayout = () => {
           <div className="md:max-w-7xl w-full mx-auto px-10">
             <Footer />
           </div>
+        </div>
+        {/* copyright and credit section */}
+        <div className="md:max-w-7xl w-full mx-auto px-10 py-5">
+          <CopyrightAndCredit />
         </div>
       </div>
     </>
