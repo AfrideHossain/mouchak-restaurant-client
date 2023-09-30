@@ -41,7 +41,7 @@ const AboutUsShort = () => {
           </div>
         </div>
         {/* Our story */}
-        {/* <div className="mt-10 flex flex-col md:flex-row items-center gap-5 md:h-auto w-full">
+        <div className="mt-10 flex flex-col md:flex-row items-center gap-5 md:h-auto w-full">
           <img
             src="https://images.pexels.com/photos/418806/pexels-photo-418806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             className="md:max-w-xl w-full md:border-r-2 border-red-200 md:pe-5"
@@ -62,10 +62,10 @@ const AboutUsShort = () => {
               delectus accusantium mollitia deserunt impedit quis odit, est
               earum exercitationem esse dicta voluptatum in! Illo, corrupti.
             </p>
+            {/* Owner */}
             <p className="uppercase font-medium text-neutral">Tanvir Anjum</p>
           </div>
-        </div> */}
-        {/* Owner */}
+        </div>
       </div>
     </>
   );
