@@ -66,6 +66,7 @@ const Footer = () => {
               type="text"
               name="feedback"
               id="feedback"
+              placeholder="Feedback"
             />
             <button className="btn rounded-none normal-case px-6 text-base leading-none">
               Feedback
