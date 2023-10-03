@@ -15,7 +15,7 @@ const Homepage = () => {
           <AboutUsShort />
         </div>
       </section>
-      <section className="bg-red-50">
+      <section className="bg-white">
         <div className="md:max-w-7xl w-full mx-auto px-10">
           <FeaturedDish />
         </div>
