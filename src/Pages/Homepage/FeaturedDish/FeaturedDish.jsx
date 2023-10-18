@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import MenuComponent from "../../../Shared/MenuComponent/MenuComponent";
 import SectionTitle from "../../../Shared/SectionTitle/SectionTitle";
 import SpecialOffer from "./SpecialOffer/SpecialOffer";
@@ -21,6 +22,14 @@ const FeaturedDish = () => {
         <div className="max-w-full">
           <h1 className="font-bold text-2xl mb-8">Our Popular</h1>
           <MenuComponent />
+        </div>
+        <div className="w-full flex justify-center md:col-span-2">
+          <Link
+            className="btn md:btn-md btn-sm btn-primary rounded-none btn-outline md:px-8 leading-none"
+            to="/menu"
+          >
+            View Menu
+          </Link>
         </div>
       </div>
     </div>

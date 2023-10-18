@@ -9,7 +9,7 @@ const Banner = () => {
           <h1 className="text-gray-200 md:text-7xl text-4xl">Mouchak</h1>
           <p className="text-gray-400 md:text-lg text-base my-8">
             Simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry's standard dummy .
+            Ipsum has been the industry{"'"}s standard dummy .
           </p>
           <Link
             className="btn md:btn-lg btn-sm btn-primary rounded-none btn-outline md:px-8 leading-none"
